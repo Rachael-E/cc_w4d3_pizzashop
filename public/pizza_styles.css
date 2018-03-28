@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  font-family: Verdana;
+  background-color: grey;
+}
+
+h1 {
+  color: black;
+  background-color: white;
+
+}
+
+ul {
+  background-color: orange;
+  font-size: 20px;
+  padding: 5px;
+  border-color: white;
+  border: 2px;
+  border-width: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  border-width: thin;
+
+
+}
+
+button {
+  background-color: darkred;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+#edit-pizza {
+  background-color: darkgreen;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}

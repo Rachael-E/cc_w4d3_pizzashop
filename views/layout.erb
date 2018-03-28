@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pizza Shop</title>
+  <title>Erb's Ruby Pizza Parlour</title>
+  <link rel="stylesheet" type="text/css" href="/pizza_styles.css">
 </head>
 <body>
   <nav>
     <ul>
-      <li>
+
         <a href="/pizza_orders">Pizza Orders</a>
+        <br>
         <a href="/pizza_orders/new">New Pizza Order</a>
-      </li>
     </ul>
   </nav>
   <%= yield %>
+  <br>
 </body>
 </html>
