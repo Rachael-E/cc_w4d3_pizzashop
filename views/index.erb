@@ -1,0 +1,21 @@
+<h1>All the pizzas!</h1>
+
+<% @orders.each do |order| %> <!-- pizza order object -->
+  <p>Name: <%= order.pretty_name() %></p>
+  <p>Order: <%= order.quantity%> x <%= order.topping %></p>
+  <p><a href="/pizza_orders/<%= order.id%>">Show Order</a></p>
+  <p>
+    <form method="post" action="/pizza_orders/<%= order.id %>/delete">
+      <button>Delete Pizza Order</button>
+    </form>
+  </p>
+  <p>
+    <a href="/pizza_orders/<%= order.id %>/edit"><button>Edit Pizza Order</button></a>
+
+
+    </form>
+  </p>
+
+  <hr/>
+
+<% end %>
